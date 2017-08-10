@@ -18,7 +18,7 @@ This codebase enhances upon the original work with the following:
 The conventional npm installation process needs to be followed.
 
 ```bash
-$ npm install zeltice-mt-downloader --save-dev
+$ npm install git+https://git@github.com/Fer0x/mt-downloader.git --save
 ```
 
 ##.mtd file
@@ -30,7 +30,7 @@ When you want to start a new download you just need to provide a download url an
 ```javascript
 var url = require("url")
 var path = require("path")
-var mtd = require('zeltice-mt-downloader')
+var mtd = require('mt-downloader')
 
 var target_url = "https://upload.wikimedia.org/wikipedia/commons/4/47/Gadget_the_pug_expressive_eyes.jpg"
 var file_name = path.basename(url.parse(target_url).pathname)
@@ -47,7 +47,7 @@ If you want to restart a download from where it left off. You just need to provi
 ```javascript
 var url = require("url")
 var path = require("path")
-var mtd = require('zeltice-mt-downloader')
+var mtd = require('mt-downloader')
 
 // File should have a .mtd extension
 var file_path = "/var/www/some_incomplete_download_file.zip.mtd"

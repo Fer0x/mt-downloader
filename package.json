@@ -1,5 +1,5 @@
 {
-  "name": "zeltice-mt-downloader",
+  "name": "mt-downloader",
   "version": "1.1.4",
   "description": "Multi-threaded, resumable, file download library for Nodejs",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeltice/zeltice-mt-downloader.git"
+    "url": "git+https://github.com/Fer0x/mt-downloader.git"
   },
   "keywords": [
     "Node",
@@ -26,12 +26,12 @@
     "threaded",
     "downloader"
   ],
-  "author": "zeltice",
+  "author": "Fer0x",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zeltice/zeltice-mt-downloader/issues"
+    "url": "https://github.com/Fer0x/mt-downloader/issues"
   },
-  "homepage": "https://github.com/zeltice/zeltice-mt-downloader#readme",
+  "homepage": "https://github.com/Fer0x/mt-downloader#readme",
   "dependencies": {
     "async": "0.2.x",
     "underscore": "1.5.x"
